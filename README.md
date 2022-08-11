@@ -1,4 +1,4 @@
-# Project-ESBD
-An all-in-one resource for learning about and creating embedded systems
+# Project ESBD - Libraries
+Eagle device libraries for a variety of common components
 
-More information at projectesbd.com
+More info to come!
