@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.6.2">
 <drawing>
 <settings>
@@ -2290,12 +2291,12 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="POWER_GND" urn="urn:adsk.eagle:symbol:33379852/1">
+<symbol name="POWER_GND">
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
 <text x="0" y="-3.81" size="1.27" layer="95" align="center">GND</text>
 <text x="0" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
 </symbol>
-<symbol name="OPAMP_SHUTDOWN" urn="urn:adsk.eagle:symbol:33784627/1">
+<symbol name="OPAMP_SHUTDOWN">
 <text x="10.16" y="2.54" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
 <text x="10.16" y="-2.54" size="1.778" layer="96" rot="MR0" align="top-left">&gt;VALUE</text>
 <text x="-3.81" y="-2.54" size="1.778" layer="97" rot="MR0" align="center">+</text>
@@ -2311,7 +2312,7 @@
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
 </symbol>
-<symbol name="AMPLIFIER" urn="urn:adsk.eagle:symbol:33786198/2">
+<symbol name="AMPLIFIER">
 <text x="-15.24" y="10.668" size="1.778" layer="95" rot="MR0" align="bottom-right">&gt;NAME</text>
 <text x="-15.24" y="-10.668" size="1.778" layer="96" rot="MR0" align="top-right">&gt;VALUE</text>
 <pin name="OUT+" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -2330,7 +2331,7 @@
 <wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
-<symbol name="NMOS-PROTECTED" urn="urn:adsk.eagle:symbol:32882086/1">
+<symbol name="NMOS-PROTECTED">
 <text x="-10.16" y="-6.858" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-10.16" y="6.858" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.048" y="4.318" size="0.8128" layer="95">D</text>
@@ -2398,7 +2399,7 @@
 <circle x="2.54" y="-1.27" radius="0.127" width="0.4064" layer="94"/>
 <circle x="-7.62" y="-1.27" radius="0.127" width="0.4064" layer="94"/>
 </symbol>
-<symbol name="NMOS" urn="urn:adsk.eagle:symbol:32882085/1">
+<symbol name="NMOS">
 <text x="2.54" y="-3.81" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 <text x="0.508" y="3.048" size="0.8128" layer="95">D</text>
@@ -2432,14 +2433,14 @@
 <circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
 <circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
 </symbol>
-<symbol name="POWER_SINGLE" urn="urn:adsk.eagle:symbol:33379850/1">
+<symbol name="POWER_SINGLE">
 <pin name="VDD" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
 <text x="0" y="3.81" size="1.27" layer="95" align="center">VDD</text>
 <text x="0" y="-3.81" size="1.27" layer="95" align="center">GND</text>
 <text x="0" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
 </symbol>
-<symbol name="DUMMY_8-8" urn="urn:adsk.eagle:symbol:34565518/1">
+<symbol name="DUMMY_8-8">
 <wire x1="8.89" y1="-11.43" x2="-8.89" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="-8.89" y1="11.43" x2="-8.89" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="8.89" y1="-11.43" x2="8.89" y2="11.43" width="0.254" layer="94"/>
@@ -2463,7 +2464,7 @@
 <pin name="15" x="13.97" y="6.35" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="16" x="13.97" y="8.89" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="LTC3119" urn="urn:adsk.eagle:symbol:32544639/1">
+<symbol name="LTC3119">
 <text x="-12.7" y="18.288" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-18.288" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
@@ -2489,7 +2490,7 @@
 <pin name="MPPC" x="-15.24" y="-7.62" length="short" direction="in"/>
 <pin name="PGOOD" x="15.24" y="-5.08" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="SENSOR_ANALOG" urn="urn:adsk.eagle:symbol:33696629/1">
+<symbol name="SENSOR_ANALOG">
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -2500,7 +2501,7 @@
 <text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-8.128" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="BNO055" urn="urn:adsk.eagle:symbol:36673789/1">
+<symbol name="BNO055">
 <text x="-12.7" y="20.828" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-20.828" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
@@ -2527,7 +2528,7 @@
 <pin name="XIN32" x="-15.24" y="-12.7" length="short" direction="in"/>
 <pin name="XOUT32" x="-15.24" y="-15.24" length="short" direction="out"/>
 </symbol>
-<symbol name="BNO085" urn="urn:adsk.eagle:symbol:36673792/1">
+<symbol name="BNO085">
 <text x="-12.7" y="20.828" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-20.828" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
@@ -2554,7 +2555,7 @@
 <pin name="XIN32" x="-15.24" y="-12.7" length="short" direction="in"/>
 <pin name="XOUT32" x="-15.24" y="-15.24" length="short" direction="out"/>
 </symbol>
-<symbol name="LM4121" urn="urn:adsk.eagle:symbol:36859609/2">
+<symbol name="LM4121">
 <text x="-8.89" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 <text x="-8.89" y="-8.128" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-8.89" y1="7.62" x2="8.89" y2="7.62" width="0.254" layer="94"/>
@@ -2567,7 +2568,7 @@
 <pin name="VOUT" x="11.43" y="5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="EN" x="-11.43" y="0" length="short" direction="in"/>
 </symbol>
-<symbol name="OPAMP" urn="urn:adsk.eagle:symbol:33784629/1">
+<symbol name="OPAMP">
 <text x="10.16" y="2.54" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
 <text x="10.16" y="-2.54" size="1.778" layer="96" rot="MR0" align="top-left">&gt;VALUE</text>
 <text x="-3.81" y="-2.54" size="1.778" layer="97" rot="MR0" align="center">+</text>
@@ -2581,7 +2582,7 @@
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
 </symbol>
-<symbol name="INA" urn="urn:adsk.eagle:symbol:36673790/1">
+<symbol name="INA">
 <text x="12.7" y="2.54" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
 <text x="12.7" y="-2.54" size="1.778" layer="96" rot="MR0" align="top-left">&gt;VALUE</text>
 <text x="-6.35" y="5.08" size="1.778" layer="97" rot="MR0" align="center">+</text>
@@ -2605,7 +2606,7 @@
 <wire x1="0" y1="5.08" x2="0" y2="3.81" width="0.1524" layer="94"/>
 <wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="AP7335" urn="urn:adsk.eagle:symbol:32700328/1">
+<symbol name="AP7335">
 <wire x1="-8.89" y1="7.62" x2="-8.89" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-8.89" y1="-7.62" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="8.89" y1="-7.62" x2="8.89" y2="7.62" width="0.254" layer="94"/>
@@ -2618,7 +2619,7 @@
 <pin name="ADJ" x="13.97" y="0" length="middle" direction="pas" rot="R180"/>
 <pin name="EN" x="-13.97" y="0" length="middle" direction="in"/>
 </symbol>
-<symbol name="DUMMY_4-4-4-4" urn="urn:adsk.eagle:symbol:34565516/1">
+<symbol name="DUMMY_4-4-4-4">
 <wire x1="8.89" y1="-8.89" x2="-8.89" y2="-8.89" width="0.254" layer="94"/>
 <wire x1="-8.89" y1="8.89" x2="-8.89" y2="-8.89" width="0.254" layer="94"/>
 <wire x1="8.89" y1="-8.89" x2="8.89" y2="8.89" width="0.254" layer="94"/>
@@ -2642,7 +2643,7 @@
 <pin name="15" x="-1.27" y="13.97" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="16" x="-3.81" y="13.97" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="DUMMY_12-12-12-12" urn="urn:adsk.eagle:symbol:34565514/1">
+<symbol name="DUMMY_12-12-12-12">
 <wire x1="19.05" y1="-19.05" x2="-19.05" y2="-19.05" width="0.254" layer="94"/>
 <wire x1="-19.05" y1="19.05" x2="-19.05" y2="-19.05" width="0.254" layer="94"/>
 <wire x1="19.05" y1="-19.05" x2="19.05" y2="19.05" width="0.254" layer="94"/>
@@ -2698,10 +2699,10 @@
 <pin name="47" x="-11.43" y="24.13" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="48" x="-13.97" y="24.13" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="PIN" urn="urn:adsk.eagle:symbol:34565517/1">
+<symbol name="PIN">
 <pin name="1" x="0" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="MAX98357" urn="urn:adsk.eagle:symbol:33786197/2">
+<symbol name="MAX98357">
 <text x="-15.24" y="15.748" size="1.778" layer="95" rot="MR0" align="bottom-right">&gt;NAME</text>
 <text x="-15.24" y="-15.748" size="1.778" layer="96" rot="MR0" align="top-right">&gt;VALUE</text>
 <pin name="OUT+" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -2723,7 +2724,7 @@
 <wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
-<symbol name="BRIDGE_DUAL" urn="urn:adsk.eagle:symbol:35699540/1">
+<symbol name="BRIDGE_DUAL">
 <text x="-10.16" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -2741,7 +2742,7 @@
 <pin name="OUT3" x="12.7" y="0" length="short" direction="out" rot="R180"/>
 <pin name="OUT4" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="DUMMY_14-14" urn="urn:adsk.eagle:symbol:34565520/1">
+<symbol name="DUMMY_14-14">
 <wire x1="8.89" y1="-19.05" x2="-8.89" y2="-19.05" width="0.254" layer="94"/>
 <wire x1="-8.89" y1="19.05" x2="-8.89" y2="-19.05" width="0.254" layer="94"/>
 <wire x1="8.89" y1="-19.05" x2="8.89" y2="19.05" width="0.254" layer="94"/>
@@ -2777,7 +2778,7 @@
 <pin name="27" x="13.97" y="13.97" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="28" x="13.97" y="16.51" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="ATSAMD51" urn="urn:adsk.eagle:symbol:33379853/1">
+<symbol name="ATSAMD51">
 <pin name="PA00/RTC_IN" x="-22.86" y="19.05" length="middle" swaplevel="1"/>
 <pin name="PA01/RTC_OUT" x="-22.86" y="16.51" length="middle" swaplevel="1"/>
 <pin name="PA02" x="22.86" y="62.23" length="middle" swaplevel="1" rot="R180"/>
@@ -2842,7 +2843,7 @@
 <text x="-17.78" y="65.278" size="1.778" layer="95">&gt;NAME</text>
 <text x="-17.78" y="-65.278" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="APDS-9960" urn="urn:adsk.eagle:symbol:33763231/1">
+<symbol name="APDS-9960">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -2858,7 +2859,7 @@
 <text x="-10.16" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="AT30TS74" urn="urn:adsk.eagle:symbol:33696628/2">
+<symbol name="AT30TS74">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -2875,7 +2876,7 @@
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-3.81" y="0" size="1.27" layer="97" rot="R90" align="center">(ADDRESS)</text>
 </symbol>
-<symbol name="MCP73837" urn="urn:adsk.eagle:symbol:35699534/1">
+<symbol name="MCP73837">
 <text x="-10.16" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -2893,7 +2894,7 @@
 <pin name="PROG1" x="12.7" y="0" length="short" direction="in" rot="R180"/>
 <pin name="PROG2" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
 </symbol>
-<symbol name="AMPLIFIER_SHUTDOWN" urn="urn:adsk.eagle:symbol:33786199/2">
+<symbol name="AMPLIFIER_SHUTDOWN">
 <text x="-15.24" y="10.668" size="1.778" layer="95" rot="MR0" align="bottom-right">&gt;NAME</text>
 <text x="-15.24" y="-10.668" size="1.778" layer="96" rot="MR0" align="top-right">&gt;VALUE</text>
 <pin name="OUT+" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -2913,7 +2914,7 @@
 <wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
-<symbol name="MCP73213" urn="urn:adsk.eagle:symbol:35699532/1">
+<symbol name="MCP73213">
 <text x="-10.16" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -2926,7 +2927,7 @@
 <pin name="GND" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="STAT" x="-12.7" y="0" length="short" direction="out"/>
 </symbol>
-<symbol name="TS4990" urn="urn:adsk.eagle:symbol:33786200/2">
+<symbol name="TS4990">
 <text x="-15.24" y="13.208" size="1.778" layer="95" rot="MR0" align="bottom-right">&gt;NAME</text>
 <text x="-15.24" y="-13.208" size="1.778" layer="96" rot="MR0" align="top-right">&gt;VALUE</text>
 <pin name="VOUT1" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -2947,7 +2948,7 @@
 <wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
-<symbol name="OPTOCOUPLER-1CH" urn="urn:adsk.eagle:symbol:36673791/2">
+<symbol name="OPTOCOUPLER-1CH">
 <wire x1="-1.905" y1="0.635" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="0.635" width="0.254" layer="94"/>
 <wire x1="0" y1="-0.635" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
@@ -2984,7 +2985,7 @@
 <vertex x="3.81" y="-2.54"/>
 </polygon>
 </symbol>
-<symbol name="DUMMY_16-16-16-16" urn="urn:adsk.eagle:symbol:34565515/1">
+<symbol name="DUMMY_16-16-16-16">
 <wire x1="24.13" y1="-24.13" x2="-24.13" y2="-24.13" width="0.254" layer="94"/>
 <wire x1="-24.13" y1="24.13" x2="-24.13" y2="-24.13" width="0.254" layer="94"/>
 <wire x1="24.13" y1="-24.13" x2="24.13" y2="24.13" width="0.254" layer="94"/>
@@ -3056,7 +3057,7 @@
 <pin name="63" x="-16.51" y="29.21" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="64" x="-19.05" y="29.21" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="ADP5074" urn="urn:adsk.eagle:symbol:36680133/1">
+<symbol name="ADP5074">
 <text x="-12.7" y="15.748" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-15.748" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
@@ -3077,14 +3078,14 @@
 <pin name="SS" x="15.24" y="-5.08" length="short" direction="in" rot="R180"/>
 <pin name="SLEW" x="15.24" y="-7.62" length="short" direction="in" rot="R180"/>
 </symbol>
-<symbol name="POWER_DUAL" urn="urn:adsk.eagle:symbol:33379851/1">
+<symbol name="POWER_DUAL">
 <pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
 <text x="0" y="3.81" size="1.27" layer="95" align="center">V+</text>
 <text x="0" y="-3.81" size="1.27" layer="95" align="center">V-</text>
 <text x="0" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
 </symbol>
-<symbol name="OPAMP_SIMPLE" urn="urn:adsk.eagle:symbol:33784628/1">
+<symbol name="OPAMP_SIMPLE">
 <text x="10.16" y="2.54" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
 <text x="10.16" y="-2.54" size="1.778" layer="96" rot="MR0" align="top-left">&gt;VALUE</text>
 <text x="-3.81" y="-2.54" size="1.778" layer="97" rot="MR0" align="center">+</text>
@@ -3096,7 +3097,7 @@
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
 </symbol>
-<symbol name="DUMMY_8-8-8-8" urn="urn:adsk.eagle:symbol:34565512/1">
+<symbol name="DUMMY_8-8-8-8">
 <wire x1="13.97" y1="-13.97" x2="-13.97" y2="-13.97" width="0.254" layer="94"/>
 <wire x1="-13.97" y1="13.97" x2="-13.97" y2="-13.97" width="0.254" layer="94"/>
 <wire x1="13.97" y1="-13.97" x2="13.97" y2="13.97" width="0.254" layer="94"/>
@@ -3136,7 +3137,7 @@
 <pin name="31" x="-6.35" y="19.05" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="32" x="-8.89" y="19.05" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="DUMMY_5-5-5-5" urn="urn:adsk.eagle:symbol:34565519/1">
+<symbol name="DUMMY_5-5-5-5">
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -3164,7 +3165,7 @@
 <pin name="19" x="-2.54" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="20" x="-5.08" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="MCP73838" urn="urn:adsk.eagle:symbol:35699535/2">
+<symbol name="MCP73838">
 <text x="-10.16" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -3182,7 +3183,7 @@
 <pin name="PROG1" x="12.7" y="-7.62" length="short" direction="in" rot="R180"/>
 <pin name="PROG2" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
 </symbol>
-<symbol name="ATSAMD21" urn="urn:adsk.eagle:symbol:32544643/2">
+<symbol name="ATSAMD21">
 <pin name="PA00/RTC_IN" x="-20.32" y="2.54" length="middle"/>
 <pin name="PA01/RTC_OUT" x="-20.32" y="0" length="middle"/>
 <pin name="PA02" x="20.32" y="43.18" length="middle" swaplevel="1" rot="R180"/>
@@ -3233,7 +3234,7 @@
 <text x="-15.24" y="46.228" size="1.778" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-46.228" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="MCP7384" urn="urn:adsk.eagle:symbol:35699533/1">
+<symbol name="MCP7384">
 <text x="-10.16" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -3249,7 +3250,7 @@
 <pin name="DRIVE" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
 <pin name="SENSE" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
 </symbol>
-<symbol name="NINA-W102" urn="urn:adsk.eagle:symbol:36673793/1">
+<symbol name="NINA-W102">
 <wire x1="-40.64" y1="27.94" x2="40.64" y2="27.94" width="0.254" layer="94"/>
 <wire x1="40.64" y1="27.94" x2="40.64" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="40.64" y1="-30.48" x2="-40.64" y2="-30.48" width="0.254" layer="94"/>
@@ -3286,7 +3287,7 @@
 <pin name="GPIO_35/JTAG_CLK" x="-45.72" y="-12.7" length="middle"/>
 <pin name="GPIO_36/JTAG_TDI" x="-45.72" y="-15.24" length="middle"/>
 </symbol>
-<symbol name="ZLDO1117" urn="urn:adsk.eagle:symbol:32700330/2">
+<symbol name="ZLDO1117">
 <wire x1="-8.89" y1="5.08" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-8.89" y1="-5.08" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="8.89" y1="-5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
@@ -3297,7 +3298,7 @@
 <pin name="IN" x="-13.97" y="2.54" length="middle" direction="pwr"/>
 <pin name="ADJ" x="13.97" y="-2.54" length="middle" direction="in" rot="R180"/>
 </symbol>
-<symbol name="SHIFTER-BI-4CH" urn="urn:adsk.eagle:symbol:36801743/1">
+<symbol name="SHIFTER-BI-4CH">
 <text x="-10.16" y="30.988" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-25.908" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-7.874" y="16.002" size="1.524" layer="97">1A</text>
@@ -3366,7 +3367,7 @@
 <wire x1="3.81" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="3.81" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
 </symbol>
-<symbol name="DUMMY_7-7-7-7" urn="urn:adsk.eagle:symbol:34565513/1">
+<symbol name="DUMMY_7-7-7-7">
 <wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
@@ -3402,7 +3403,7 @@
 <pin name="27" x="-5.08" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="28" x="-7.62" y="17.78" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="ESP32-S2-WROOM" urn="urn:adsk.eagle:symbol:32544641/2">
+<symbol name="ESP32-S2-WROOM">
 <wire x1="-17.78" y1="38.1" x2="-17.78" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-38.1" x2="17.78" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-38.1" x2="17.78" y2="38.1" width="0.254" layer="94"/>
@@ -3450,7 +3451,7 @@
 <pin name="IO37" x="22.86" y="-33.02" length="middle" rot="R180"/>
 <pin name="IO38" x="22.86" y="-35.56" length="middle" rot="R180"/>
 </symbol>
-<symbol name="PMOS" urn="urn:adsk.eagle:symbol:32882075/1">
+<symbol name="PMOS">
 <text x="2.54" y="-3.81" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 <text x="0.508" y="3.048" size="0.8128" layer="95">S</text>
@@ -3484,12 +3485,12 @@
 <circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
 <circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
 </symbol>
-<symbol name="PIN_SHUTDOWN" urn="urn:adsk.eagle:symbol:33784626/1">
+<symbol name="PIN_SHUTDOWN">
 <pin name="SHDN" x="0" y="-2.54" visible="pad" length="short" direction="in" rot="R90"/>
 <text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="1.27" size="1.27" layer="97" align="center">SHDN</text>
 </symbol>
-<symbol name="SHIFTER-BI-2CH" urn="urn:adsk.eagle:symbol:36801744/1">
+<symbol name="SHIFTER-BI-2CH">
 <text x="-10.16" y="19.558" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-19.558" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-7.874" y="3.302" size="1.524" layer="97">1A</text>
@@ -3529,7 +3530,7 @@
 <wire x1="3.81" y1="-3.81" x2="3.81" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-11.43" x2="-3.81" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
-<symbol name="SHIFTER-BI-1CH" urn="urn:adsk.eagle:symbol:36801742/1">
+<symbol name="SHIFTER-BI-1CH">
 <text x="-10.16" y="14.478" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-14.478" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-7.874" y="-1.778" size="1.524" layer="97">1A</text>
@@ -3560,7 +3561,7 @@
 <wire x1="3.81" y1="-6.35" x2="0" y2="-4.445" width="0.254" layer="94"/>
 <wire x1="0" y1="-4.445" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="DUMMY_6-6-6-6" urn="urn:adsk.eagle:symbol:34565521/1">
+<symbol name="DUMMY_6-6-6-6">
 <wire x1="11.43" y1="-11.43" x2="-11.43" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="-11.43" y1="11.43" x2="-11.43" y2="-11.43" width="0.254" layer="94"/>
 <wire x1="11.43" y1="-11.43" x2="11.43" y2="11.43" width="0.254" layer="94"/>
@@ -3592,7 +3593,7 @@
 <pin name="23" x="-3.81" y="16.51" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="24" x="-6.35" y="16.51" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="HCNR200" urn="urn:adsk.eagle:symbol:36859610/1">
+<symbol name="HCNR200">
 <wire x1="-3.175" y1="3.175" x2="-3.81" y2="4.445" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="4.445" x2="-4.445" y2="3.175" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="4.445" x2="-3.81" y2="4.445" width="0.254" layer="94"/>
@@ -3658,7 +3659,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTC3119" prefix="IC" urn="urn:adsk.eagle:component:32544644/1">
+<deviceset name="LTC3119" prefix="IC">
 <description>&lt;b&gt;LTC3119&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -3698,7 +3699,7 @@ Buck-Boost DC/DC Converter 18V, 5A Synchronous
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-SOIC16" prefix="IC" urn="urn:adsk.eagle:component:34565548/1">
+<deviceset name="DUMMY-SOIC16" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_8-8" x="0" y="0"/>
 </gates>
@@ -3731,7 +3732,7 @@ Buck-Boost DC/DC Converter 18V, 5A Synchronous
 </device>
 </devices>
 </deviceset>
-<deviceset name="TMP23X" prefix="IC" urn="urn:adsk.eagle:component:33696631/1">
+<deviceset name="TMP23X" prefix="IC">
 <description>&lt;b&gt;TMP23x&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Texas Instruments&lt;/i&gt;
 &lt;p&gt;
@@ -3756,7 +3757,7 @@ Low-Power, High-Accuracy Analog Output Temperature Sensors
 </device>
 </devices>
 </deviceset>
-<deviceset name="BNO085" prefix="IC" urn="urn:adsk.eagle:component:36673801/1">
+<deviceset name="BNO085" prefix="IC">
 <description>&lt;b&gt;BNO085&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;CEVA&lt;/i&gt;
 &lt;p&gt;
@@ -3797,7 +3798,7 @@ Intelligent 9-axis absolute orientation sensor
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMP2120U" prefix="M" urn="urn:adsk.eagle:component:32882076/3">
+<deviceset name="DMP2120U" prefix="M">
 <description>&lt;b&gt;DMP2120U&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Diodes Incorporated&lt;/i&gt;
 &lt;p&gt;
@@ -3822,7 +3823,7 @@ P-Channel Enhancement Mode MOSFET
 </device>
 </devices>
 </deviceset>
-<deviceset name="AP7335" prefix="IC" uservalue="yes" urn="urn:adsk.eagle:component:32700334/3">
+<deviceset name="AP7335" prefix="IC" uservalue="yes">
 <description>&lt;b&gt;AP7335&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Diodes Incorporated&lt;/i&gt;
 &lt;p&gt;
@@ -3849,7 +3850,7 @@ Low Dropout Linear Regulator, 300mA, Low Quiescent Current, Fast Transient
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM4121" prefix="IC" urn="urn:adsk.eagle:component:36859611/3">
+<deviceset name="LM4121" prefix="IC">
 <description>&lt;b&gt;LM4121&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Texas Instruments&lt;/i&gt;
 &lt;p&gt;
@@ -3876,7 +3877,7 @@ Precision Micropower Low Dropout Voltage Reference
 </device>
 </devices>
 </deviceset>
-<deviceset name="BNO055" prefix="IC" urn="urn:adsk.eagle:component:36673800/1">
+<deviceset name="BNO055" prefix="IC">
 <description>&lt;b&gt;BNO055&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Bosch Sensortec&lt;/i&gt;
 &lt;p&gt;
@@ -3917,7 +3918,7 @@ Intelligent 9-axis absolute orientation sensor
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8691" prefix="IC" urn="urn:adsk.eagle:component:33784637/3">
+<deviceset name="AD8691" prefix="IC">
 <description>&lt;b&gt;AD8691&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -3959,7 +3960,7 @@ Low Cost, Low Noise, CMOS, RRO Operational Amplifiers
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8500" prefix="IC" urn="urn:adsk.eagle:component:33784638/1">
+<deviceset name="AD8500" prefix="IC">
 <description>&lt;b&gt;AD8500&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -3986,7 +3987,7 @@ Micropower Precision CMOS Operational Amplifier
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT30TS74" prefix="IC" urn="urn:adsk.eagle:component:33696630/3">
+<deviceset name="AT30TS74" prefix="IC">
 <description>&lt;b&gt;AT30TS74&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;ATMEL&lt;/i&gt;
 &lt;p&gt;
@@ -4017,7 +4018,7 @@ Digital Temperature Sensor
 </device>
 </devices>
 </deviceset>
-<deviceset name="TS4990" prefix="IC" urn="urn:adsk.eagle:component:33786204/2">
+<deviceset name="TS4990" prefix="IC">
 <description>&lt;b&gt;TS4990&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;STMicroelectronics&lt;/i&gt;
 &lt;p&gt;
@@ -4047,7 +4048,7 @@ Digital Temperature Sensor
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOCD217M" prefix="IC" urn="urn:adsk.eagle:component:36673803/3">
+<deviceset name="MOCD217M" prefix="IC">
 <description>&lt;b&gt;MOCD2XXM&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;ON Semiconductor&lt;/i&gt;
 &lt;p&gt;
@@ -4078,7 +4079,7 @@ Dual-Channel Phototransistor Output Optocoupler
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8692" prefix="IC" urn="urn:adsk.eagle:component:33784636/3">
+<deviceset name="AD8692" prefix="IC">
 <description>&lt;b&gt;AD8692&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -4128,7 +4129,7 @@ Low Cost, Low Noise, CMOS, RRO Operational Amplifiers
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX98357A" prefix="IC" urn="urn:adsk.eagle:component:33786202/4">
+<deviceset name="MAX98357A" prefix="IC">
 <description>&lt;b&gt;MAX98357A&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Maxim Integrated&lt;/i&gt;
 &lt;p&gt;
@@ -4159,7 +4160,7 @@ Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN16" prefix="IC" urn="urn:adsk.eagle:component:34565547/2">
+<deviceset name="DUMMY-QFN16" prefix="IC">
 <gates>
 <gate name="EP" symbol="PIN" x="8.89" y="-8.89" addlevel="request"/>
 <gate name="G$1" symbol="DUMMY_4-4-4-4" x="0" y="0"/>
@@ -4194,7 +4195,7 @@ Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADP5074" prefix="IC" urn="urn:adsk.eagle:component:36680135/1">
+<deviceset name="ADP5074" prefix="IC">
 <description>&lt;b&gt;ADP5074&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -4229,7 +4230,7 @@ Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
 </device>
 </devices>
 </deviceset>
-<deviceset name="PAM8302A" prefix="IC" urn="urn:adsk.eagle:component:33786203/2">
+<deviceset name="PAM8302A" prefix="IC">
 <description>&lt;b&gt;PAM8302A&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Diodes Incorporated&lt;/i&gt;
 &lt;p&gt;
@@ -4275,7 +4276,7 @@ Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8226" prefix="IC" urn="urn:adsk.eagle:component:36673802/1">
+<deviceset name="AD8226" prefix="IC">
 <description>&lt;b&gt;AD8226&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -4323,7 +4324,7 @@ Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP7384" prefix="IC" uservalue="yes" urn="urn:adsk.eagle:component:35699537/1">
+<deviceset name="MCP7384" prefix="IC" uservalue="yes">
 <description>&lt;b&gt;MCP7384&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Microchip&lt;/i&gt;
 &lt;p&gt;
@@ -4371,7 +4372,7 @@ Advanced Single or Dual Cell Lithium-Ion/Lithium-Polymer Charge Management Contr
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-MSOP16" prefix="IC" urn="urn:adsk.eagle:component:34565539/1">
+<deviceset name="DUMMY-MSOP16" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_8-8" x="0" y="0"/>
 <gate name="EP" symbol="PIN" x="8.89" y="-11.43" addlevel="request"/>
@@ -4406,7 +4407,7 @@ Advanced Single or Dual Cell Lithium-Ion/Lithium-Polymer Charge Management Contr
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAMD21" prefix="IC" urn="urn:adsk.eagle:component:32544648/5">
+<deviceset name="ATSAMD21" prefix="IC">
 <description>&lt;b&gt;ATSAMD21&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;MicroChip&lt;/i&gt;
 &lt;p&gt;
@@ -4472,7 +4473,7 @@ https://www.microchip.com/en-us/product/ATsamd21g18
 </device>
 </devices>
 </deviceset>
-<deviceset name="APDS-9960" prefix="IC" urn="urn:adsk.eagle:component:33763233/2">
+<deviceset name="APDS-9960" prefix="IC">
 <description>&lt;b&gt;APDS-9960&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Avago Technologies&lt;/i&gt;
 &lt;p&gt;
@@ -4502,7 +4503,7 @@ Digital Proximity, Ambient Light, RGB and Gesture Sensor
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-SOIC28" prefix="IC" urn="urn:adsk.eagle:component:34565537/1">
+<deviceset name="DUMMY-SOIC28" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_14-14" x="0" y="0"/>
 </gates>
@@ -4547,7 +4548,7 @@ Digital Proximity, Ambient Light, RGB and Gesture Sensor
 </device>
 </devices>
 </deviceset>
-<deviceset name="A3909" prefix="IC" urn="urn:adsk.eagle:component:35699541/1">
+<deviceset name="A3909" prefix="IC">
 <description>&lt;b&gt;A3909&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Allegro Microchips&lt;/i&gt;
 &lt;p&gt;
@@ -4579,7 +4580,7 @@ Dual Full Bridge Motor Driver
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFP48" prefix="IC" urn="urn:adsk.eagle:component:34565550/1">
+<deviceset name="DUMMY-QFP48" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_12-12-12-12" x="0" y="0"/>
 </gates>
@@ -4644,7 +4645,7 @@ Dual Full Bridge Motor Driver
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN20" prefix="IC" urn="urn:adsk.eagle:component:34565540/1">
+<deviceset name="DUMMY-QFN20" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_5-5-5-5" x="0" y="0"/>
 <gate name="EP" symbol="PIN" x="10.16" y="-10.16" addlevel="request"/>
@@ -4683,7 +4684,7 @@ Dual Full Bridge Motor Driver
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP73213" prefix="IC" urn="urn:adsk.eagle:component:35699536/2">
+<deviceset name="MCP73213" prefix="IC">
 <description>&lt;b&gt;MCP73213&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Microchip&lt;/i&gt;
 &lt;p&gt;
@@ -4710,7 +4711,7 @@ Dual Cell Li-Ion/Li-Polymer Battery Charge Management Controller
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFP64" prefix="IC" urn="urn:adsk.eagle:component:34565546/1">
+<deviceset name="DUMMY-QFP64" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_16-16-16-16" x="0" y="0"/>
 </gates>
@@ -4791,7 +4792,7 @@ Dual Cell Li-Ion/Li-Polymer Battery Charge Management Controller
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAMD51" prefix="IC" urn="urn:adsk.eagle:component:33379854/2">
+<deviceset name="ATSAMD51" prefix="IC">
 <description>&lt;b&gt;ATSAMD51&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;MicroChip&lt;/i&gt;
 &lt;p&gt;
@@ -4871,7 +4872,7 @@ https://www.microchip.com/en-us/product/ATSAMD51J20A
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP73837" prefix="IC" urn="urn:adsk.eagle:component:35699539/2">
+<deviceset name="MCP73837" prefix="IC">
 <description>&lt;b&gt;MCP73837&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Microchip&lt;/i&gt;
 &lt;p&gt;
@@ -4923,7 +4924,7 @@ Advanced Stand-Alone Li-Ion/Li-Polymer Battery Charge Management Controller with
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN32" prefix="IC" urn="urn:adsk.eagle:component:34565541/1">
+<deviceset name="DUMMY-QFN32" prefix="IC">
 <gates>
 <gate name="EP" symbol="PIN" x="13.97" y="-13.97" addlevel="request"/>
 <gate name="G$1" symbol="DUMMY_8-8-8-8" x="0" y="0"/>
@@ -4974,7 +4975,7 @@ Advanced Stand-Alone Li-Ion/Li-Polymer Battery Charge Management Controller with
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP73838" prefix="IC" urn="urn:adsk.eagle:component:35699538/2">
+<deviceset name="MCP73838" prefix="IC">
 <description>&lt;b&gt;MCP73838&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Microchip&lt;/i&gt;
 &lt;p&gt;
@@ -5026,7 +5027,7 @@ Advanced Stand-Alone Li-Ion/Li-Polymer Battery Charge Management Controller with
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8694" prefix="IC" urn="urn:adsk.eagle:component:33784635/2">
+<deviceset name="AD8694" prefix="IC">
 <description>&lt;b&gt;AD8694&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -5090,7 +5091,7 @@ Low Cost, Low Noise, CMOS, RRO Operational Amplifiers
 </device>
 </devices>
 </deviceset>
-<deviceset name="TXB0104" prefix="IC" urn="urn:adsk.eagle:component:36801745/1">
+<deviceset name="TXB0104" prefix="IC">
 <description>&lt;b&gt;4-Bit Bi-Directional Level Shifter&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Texas Instruments&lt;/i&gt;
 &lt;p&gt;1.2V-3.6V (VCCA) to 1.65V-5.5V (VCCB) bi-directional level shifter with auto direction sensing.&lt;/p&gt;</description>
@@ -5144,7 +5145,7 @@ Low Cost, Low Noise, CMOS, RRO Operational Amplifiers
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN64" prefix="IC" urn="urn:adsk.eagle:component:34565545/1">
+<deviceset name="DUMMY-QFN64" prefix="IC">
 <gates>
 <gate name="EP" symbol="PIN" x="24.13" y="-24.13" addlevel="request"/>
 <gate name="G$1" symbol="DUMMY_16-16-16-16" x="0" y="0"/>
@@ -5227,7 +5228,7 @@ Low Cost, Low Noise, CMOS, RRO Operational Amplifiers
 </device>
 </devices>
 </deviceset>
-<deviceset name="NINA-W102" prefix="IC" urn="urn:adsk.eagle:component:36673805/4">
+<deviceset name="NINA-W102" prefix="IC">
 <description>&lt;b&gt;NINA-W102&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;U-Blox&lt;/i&gt;
 &lt;p&gt;
@@ -5278,7 +5279,7 @@ Stand-alone multiradio MCU modules. Suppors Wi-Fi 802.11b/g/n in the 2.4 GHz ISM
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-TSSOP28" prefix="IC" urn="urn:adsk.eagle:component:34565538/1">
+<deviceset name="DUMMY-TSSOP28" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_14-14" x="0" y="0"/>
 <gate name="EP" symbol="PIN" x="8.89" y="-19.05" addlevel="request"/>
@@ -5325,7 +5326,7 @@ Stand-alone multiradio MCU modules. Suppors Wi-Fi 802.11b/g/n in the 2.4 GHz ISM
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFP32" prefix="IC" urn="urn:adsk.eagle:component:34565542/1">
+<deviceset name="DUMMY-QFP32" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_8-8-8-8" x="0" y="0"/>
 </gates>
@@ -5374,7 +5375,7 @@ Stand-alone multiradio MCU modules. Suppors Wi-Fi 802.11b/g/n in the 2.4 GHz ISM
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32-S2-WROOM" prefix="IC" urn="urn:adsk.eagle:component:32544646/4">
+<deviceset name="ESP32-S2-WROOM" prefix="IC">
 <description>&lt;b&gt;ESP32-S2-WROOM&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Espressif&lt;/i&gt;
 &lt;p&gt;
@@ -5436,7 +5437,7 @@ WiFi Modules - 802.11, 3.3V 32Mbits SPI flash, IPEX antenna connector
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZLDO1117" prefix="IC" uservalue="yes" urn="urn:adsk.eagle:component:32700333/2">
+<deviceset name="ZLDO1117" prefix="IC" uservalue="yes">
 <description>&lt;b&gt;ZLDO1117&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Diodes Incorporated&lt;/i&gt;
 &lt;p&gt;
@@ -5461,7 +5462,7 @@ Low Dropout Positive Regulator, 1A
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN48" prefix="IC" urn="urn:adsk.eagle:component:34565544/1">
+<deviceset name="DUMMY-QFN48" prefix="IC">
 <gates>
 <gate name="EP" symbol="PIN" x="19.05" y="-19.05" addlevel="request"/>
 <gate name="G$1" symbol="DUMMY_12-12-12-12" x="0" y="0"/>
@@ -5528,7 +5529,7 @@ Low Dropout Positive Regulator, 1A
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC6268" prefix="IC" urn="urn:adsk.eagle:component:33784634/3">
+<deviceset name="LTC6268" prefix="IC">
 <description>&lt;b&gt;LTC6268&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Linear Technology / Analog Devices&lt;/i&gt;
 &lt;p&gt;
@@ -5573,7 +5574,7 @@ Low Dropout Positive Regulator, 1A
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN28" prefix="IC" urn="urn:adsk.eagle:component:34565543/1">
+<deviceset name="DUMMY-QFN28" prefix="IC">
 <gates>
 <gate name="EP" symbol="PIN" x="12.7" y="-12.7" addlevel="request"/>
 <gate name="G$1" symbol="DUMMY_7-7-7-7" x="0" y="0"/>
@@ -5620,7 +5621,7 @@ Low Dropout Positive Regulator, 1A
 </device>
 </devices>
 </deviceset>
-<deviceset name="TXB0102" prefix="IC" urn="urn:adsk.eagle:component:36801746/1">
+<deviceset name="TXB0102" prefix="IC">
 <description>&lt;b&gt;2-Bit Bi-Directional Level Shifter&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Texas Instruments&lt;/i&gt;
 &lt;p&gt;1.2V-3.6V (VCCA) to 1.65V-5.5V (VCCB) bi-directional level shifter with auto direction sensing.&lt;/p&gt;</description>
@@ -5648,7 +5649,7 @@ Low Dropout Positive Regulator, 1A
 </device>
 </devices>
 </deviceset>
-<deviceset name="DUMMY-QFN24" prefix="IC" urn="urn:adsk.eagle:component:34565549/1">
+<deviceset name="DUMMY-QFN24" prefix="IC">
 <gates>
 <gate name="G$1" symbol="DUMMY_6-6-6-6" x="0" y="0"/>
 <gate name="EP" symbol="PIN" x="11.43" y="-11.43" addlevel="request"/>
@@ -5691,7 +5692,7 @@ Low Dropout Positive Regulator, 1A
 </device>
 </devices>
 </deviceset>
-<deviceset name="HCNR200" prefix="IC" urn="urn:adsk.eagle:component:36673804/3">
+<deviceset name="HCNR200" prefix="IC">
 <description>&lt;b&gt;HCNR200&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Broadcom Limited&lt;/i&gt;
 &lt;p&gt;
@@ -5719,7 +5720,7 @@ High-Linearity Analog Optocoupler
 </device>
 </devices>
 </deviceset>
-<deviceset name="TXB0101" prefix="IC" urn="urn:adsk.eagle:component:36801747/1">
+<deviceset name="TXB0101" prefix="IC">
 <description>&lt;b&gt;1-Bit Bi-Directional Level Shifter&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Texas Instruments&lt;/i&gt;
 &lt;p&gt;1.2V-3.6V (VCCA) to 1.65V-5.5V (VCCB) bi-directional level shifter with auto direction sensing.&lt;/p&gt;</description>

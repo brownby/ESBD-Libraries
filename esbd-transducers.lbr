@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.6.2">
 <drawing>
 <settings>
@@ -495,7 +496,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="OLED" urn="urn:adsk.eagle:symbol:36863881/1">
+<symbol name="OLED">
 <wire x1="5.08" y1="16.51" x2="5.08" y2="-16.51" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-16.51" x2="-5.08" y2="-16.51" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-16.51" x2="-5.08" y2="16.51" width="0.254" layer="94"/>
@@ -511,7 +512,7 @@
 <pin name="RST" x="7.62" y="6.35" visible="pin" length="short" direction="in" rot="R180"/>
 <pin name="D/!C" x="7.62" y="1.27" visible="pin" length="short" direction="in" rot="R180"/>
 </symbol>
-<symbol name="LCD" urn="urn:adsk.eagle:symbol:36863882/1">
+<symbol name="LCD">
 <wire x1="5.08" y1="25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-25.4" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-25.4" x2="-5.08" y2="25.4" width="0.254" layer="94"/>
@@ -535,7 +536,7 @@
 <pin name="VO" x="7.62" y="17.78" visible="pin" length="short" rot="R180"/>
 <pin name="VSS" x="7.62" y="-22.86" visible="pin" length="short" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="MICROPHONE" urn="urn:adsk.eagle:symbol:34236781/1">
+<symbol name="MICROPHONE">
 <circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
 <pin name="+" x="-10.16" y="2.54" length="middle"/>
 <pin name="-" x="-10.16" y="-2.54" length="middle"/>
@@ -545,7 +546,7 @@
 <text x="0" y="5.588" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.588" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
-<symbol name="TACTILE_SWITCH" urn="urn:adsk.eagle:symbol:32544651/4">
+<symbol name="TACTILE_SWITCH">
 <wire x1="-1.905" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-2.413" y2="0" width="0.1524" layer="94"/>
@@ -557,13 +558,13 @@
 <text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.27" size="1.778" layer="95" align="top-center">&gt;VALUE</text>
 </symbol>
-<symbol name="TOUCH" urn="urn:adsk.eagle:symbol:33902556/1">
+<symbol name="TOUCH">
 <circle x="0" y="0" radius="2.54" width="5.08" layer="94"/>
 <pin name="1" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
 <text x="0" y="5.842" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.842" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
-<symbol name="SLIDE_SWITCH" urn="urn:adsk.eagle:symbol:37068290/1">
+<symbol name="SLIDE_SWITCH">
 <text x="0" y="5.842" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.81" size="1.778" layer="95" align="top-center">&gt;VALUE</text>
 <pin name="P1" x="-6.35" y="0" visible="pad" length="short" direction="pas"/>
@@ -577,12 +578,12 @@
 <circle x="1.27" y="-1.27" radius="0.127" width="0.254" layer="94"/>
 <circle x="-2.54" y="0" radius="0.127" width="0.254" layer="94"/>
 </symbol>
-<symbol name="SHIELD" urn="urn:adsk.eagle:symbol:37068289/1">
+<symbol name="SHIELD">
 <pin name="SHIELD" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
 <text x="0" y="-3.81" size="1.27" layer="95" align="center">SHIELD</text>
 <text x="0" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
 </symbol>
-<symbol name="243-K50WP-8OHM" urn="urn:adsk.eagle:symbol:32544652/1">
+<symbol name="243-K50WP-8OHM">
 <wire x1="-1" y1="2.4" x2="0" y2="2.4" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.4" x2="1" y2="2.4" width="0.1524" layer="94"/>
 <wire x1="1" y1="2.4" x2="1" y2="1" width="0.1524" layer="94"/>
@@ -599,7 +600,7 @@
 <pin name="P$1" x="0" y="4.5" visible="off" length="point" rot="R270"/>
 <pin name="P$2" x="0" y="-4.5" visible="off" length="point" rot="R90"/>
 </symbol>
-<symbol name="SPH0645LM4H" urn="urn:adsk.eagle:symbol:34236780/2">
+<symbol name="SPH0645LM4H">
 <wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
@@ -615,7 +616,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LCD" prefix="U" urn="urn:adsk.eagle:component:36863886/2">
+<deviceset name="LCD" prefix="U">
 <description>&lt;b&gt;LCD&lt;/b&gt;
 &lt;p&gt;
 Standard text-only 16x2 parallel input LCD
@@ -652,7 +653,7 @@ Standard text-only 16x2 parallel input LCD
 </device>
 </devices>
 </deviceset>
-<deviceset name="OLED" prefix="D" uservalue="yes" urn="urn:adsk.eagle:component:36863885/2">
+<deviceset name="OLED" prefix="D" uservalue="yes">
 <description>&lt;b&gt;OLED&lt;/b&gt;
 &lt;p&gt;
 OEL Display Module
@@ -681,7 +682,7 @@ OEL Display Module
 </device>
 </devices>
 </deviceset>
-<deviceset name="CMEJ-0627-42-P" prefix="M" urn="urn:adsk.eagle:component:34236785/2">
+<deviceset name="CMEJ-0627-42-P" prefix="M">
 <description>&lt;b&gt;CMEJ-0627-42-P&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;CUI Devices&lt;/i&gt;
 &lt;p&gt;
@@ -705,7 +706,7 @@ Electret Condenser Microphone
 </device>
 </devices>
 </deviceset>
-<deviceset name="KMR2" prefix="S" uservalue="yes" urn="urn:adsk.eagle:component:34377613/2">
+<deviceset name="KMR2" prefix="S" uservalue="yes">
 <description>&lt;b&gt;KMR2&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;C&amp;K&lt;/i&gt;
 &lt;p&gt;
@@ -729,7 +730,7 @@ Microminiature SMT Top Actuated
 </device>
 </devices>
 </deviceset>
-<deviceset name="TS" prefix="S" urn="urn:adsk.eagle:component:32544653/7">
+<deviceset name="TS" prefix="S">
 <description>&lt;b&gt;TACTILE SWITCH&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TACTILE_SWITCH" x="0" y="0"/>
@@ -761,7 +762,7 @@ Microminiature SMT Top Actuated
 </device>
 </devices>
 </deviceset>
-<deviceset name="243-K50WP-8OHM" urn="urn:adsk.eagle:component:32544654/1">
+<deviceset name="243-K50WP-8OHM">
 <gates>
 <gate name="G$1" symbol="243-K50WP-8OHM" x="0" y="0"/>
 </gates>
@@ -780,7 +781,7 @@ Microminiature SMT Top Actuated
 </device>
 </devices>
 </deviceset>
-<deviceset name="TOUCH" prefix="CB" urn="urn:adsk.eagle:component:33902557/3">
+<deviceset name="TOUCH" prefix="CB">
 <description>&lt;b&gt;Touch&lt;/b&gt;&lt;br&gt;
 &lt;p&gt;
 Capacitive Touch Button
@@ -802,7 +803,7 @@ Capacitive Touch Button
 </device>
 </devices>
 </deviceset>
-<deviceset name="EG1247" prefix="S" urn="urn:adsk.eagle:component:37068293/1">
+<deviceset name="EG1247" prefix="S">
 <gates>
 <gate name=".1" symbol="SLIDE_SWITCH" x="0" y="0"/>
 <gate name=".2" symbol="SHIELD" x="17.78" y="7.62" addlevel="always"/>
@@ -824,7 +825,7 @@ Capacitive Touch Button
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPH0645LM4H" prefix="M" urn="urn:adsk.eagle:component:34236784/10">
+<deviceset name="SPH0645LM4H" prefix="M">
 <description>&lt;b&gt;SPH0645LM4H&lt;/b&gt;&lt;br&gt;
 &lt;i&gt;Knowles&lt;/i&gt;
 &lt;p&gt;

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.6.2">
 <drawing>
 <settings>
@@ -119,7 +120,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="FRAME-LETTER" urn="urn:adsk.eagle:symbol:32882092/2">
+<symbol name="FRAME-LETTER">
 <text x="220.98" y="12.7" size="3.175" layer="94" ratio="10" align="center-left">NAME:</text>
 <text x="220.98" y="2.54" size="1.905" layer="94" ratio="10" align="center-left">DATE:</text>
 <text x="233.68" y="7.62" size="1.905" layer="94" ratio="10" align="center-left">&gt;VALUE</text>
@@ -146,7 +147,7 @@
 <wire x1="254" y1="0" x2="254" y2="5.08" width="0.254" layer="94"/>
 <wire x1="254" y1="5.08" x2="279.4" y2="5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="FIDUCIAL" urn="urn:adsk.eagle:symbol:32882091/1">
+<symbol name="FIDUCIAL">
 <text x="-4.445" y="4.953" size="1.778" layer="95">&gt;NAME</text>
 <text x="-4.445" y="-4.953" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.635" y1="0.635" x2="1.905" y2="1.905" layer="94"/>
@@ -160,7 +161,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME" prefix="FRAME" uservalue="yes" urn="urn:adsk.eagle:component:32882094/2">
+<deviceset name="FRAME" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;
 &lt;p&gt;Letter, 8.5" x 11"&lt;/p&gt;</description>
 <gates>
@@ -174,7 +175,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="FD" urn="urn:adsk.eagle:component:32882093/2">
+<deviceset name="FIDUCIAL" prefix="FD">
 <gates>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
