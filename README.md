@@ -69,6 +69,26 @@ This method requires using [`git`](https://git-scm.com/book/en/v2/Getting-Starte
 ```
 git clone git@github.com:brownby/ESBD-Libraries.git
 ```
+3. Your directory structure should look like:
+```
+EAGLE
+└───archive
+└───cam
+└───design blocks
+└───design rules
+└───libraries
+    └───ESBD-libraries
+        └───.git
+        |   esbd-chips.lbr 
+        |   esbd-connectors.lbr 
+        |   esbd-miscellaneous.lbr 
+        |   esbd-passives.lbr 
+        |   esbd-transducers.lbr 
+└───projects
+└───scripts
+└───spice
+└───ulps
+```
 3. To make the libraries available in your Eagle projects, right click on each library and click the "Use" box. This will make the libraries appear under the "In Use" tab of the Library Manager window for your projects.
 4. To update the libraries (as this repository is updated), navigate to the `EAGLE/libraries` in your terminal and run:
 ```
