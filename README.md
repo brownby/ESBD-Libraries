@@ -64,9 +64,14 @@ EAGLE
 
 This method requires using [`git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), which is a bit more complicated than downloading a `.zip`, but you'll be able to keep your libraries up to date by running a single `git pull` command. 
 
-1. Navigate to your `EAGLE/libraries` directory from within whatever terminal you're runnig `git`
+1. Navigate to your `EAGLE/libraries` directory from within whatever terminal you're runnig `git` in
 1. Clone the repository
 ```
 git clone git@github.com:brownby/ESBD-Libraries.git
 ```
-3. 
+3. To make the libraries available in your Eagle projects, right click on each library and click the "Use" box. This will make the libraries appear under the "In Use" tab of the Library Manager window for your projects.
+4. To update the libraries (as this repository is updated), navigate to the `EAGLE/libraries` in your terminal and run:
+```
+git pull
+```
+
