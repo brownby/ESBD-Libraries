@@ -90,7 +90,7 @@ EAGLE
 └───ulps
 ```
 3. To make the libraries available in your Eagle projects, right click on each library and click the "Use" box. This will make the libraries appear under the "In Use" tab of the Library Manager window for your projects.
-4. To update the libraries (as this repository is updated), navigate to the `EAGLE/libraries` in your terminal and run:
+4. To update the libraries (as this repository is updated), navigate to the `EAGLE/libraries` directory in your terminal and run:
 ```
 git pull
 ```
